@@ -1,0 +1,139 @@
+---
+author: "Rebecca Lange [&lt;rebecca.lange@curtin.edu.au&gt;](mailto:rebecca.lange@curtin.edu.au)" 
+insitute: "Curtin Institute for Computation"
+title: "R Shiny - \\n Customising data exploration apps for researchers"
+date: "18 October 2018 - eResearch Astralasia"
+output:
+  revealjs::revealjs_presentation:
+    theme: night
+    highlight: espresso
+    center: false
+    css: slides.css
+    reveal_options:
+      slideNumber: true
+---
+
+# What is R?
+
+## What is R?
+
+R is an open source statistical programming language.
+
+
+**Pros**
+
+- Common statistical procedures are found in R
+- Can extend functionality with packages/functions
+
+**Cons**
+
+- Need to be comfortable with code
+
+## Why use R in research?
+
+R is powerful and flexible due to the many user written packages.
+However, to capture this flexibility:
+
+- users need to be comfortable with programming
+- users need to find the package
+- users need to understand package specific syntax
+
+
+# What is Shiny?
+
+## What is Shiny?
+
+Shiny is an **open source R package** that provides an elegant and powerful web framework for building web applications using R. 
+
+Shiny helps you turn your analyses into **interactive web applications** without requiring HTML, CSS, or JavaScript knowledge.
+
+<div class="notes">
+*https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=14&cad=rja&uact=8&ved=2ahUKEwj4m_C9y4zeAhVIpo8KHa38Bs8QFjANegQIBhAB&url=https%3A%2F%2Fwww.rstudio.com%2Fproducts%2Fshiny%2F&usg=AOvVaw18ngbWCMarhvAdIDmGGE5S*
+</div>
+
+
+## Why use Shiny for research?
+
+**Pro**
+
+- User needs no R knowledge
+- App is viewed in the browser so able to use
+    - Javascript
+    - HTML
+    - CSS
+- Multiple hosting options
+- Flexible Output
+
+**Cons/Difficulties**
+
+- Need a R developer to create the app.
+    - More difficult as the code is somewhat different compared to traditional R code.
+    - Shiny uses reactive programming.
+
+## Components of Shiny
+
+- User Interface (ui.r)
+    - What the user sees and interacts with
+    
+```r
+# Define UI for application that draws a histogram
+shinyUI(fluidPage(
+  
+  # Application title
+  titlePanel("Old Faithful Geyser Data"),
+  
+  # Sidebar with a slider input for number of bins 
+  sidebarLayout(
+    sidebarPanel(
+       sliderInput("bins",
+                   "Number of bins:",
+                   min = 1,
+                   max = 50,
+                   value = 30)
+    ),
+    
+    # Show a plot of the generated distribution
+    mainPanel(
+       plotOutput("distPlot")
+    )
+  )
+))
+```
+
+## Components of Shiny
+
+- R Analysis (server.r)
+    - The R code running behind the scenes
+    
+```r
+# Define server logic required to draw a histogram
+shinyServer(function(input, output) {
+   
+  output$distPlot <- renderPlot({
+    
+    # generate bins based on input$bins from ui.R
+    x    <- faithful[, 2] 
+    bins <- seq(min(x), max(x), length.out = input$bins + 1)
+    
+    # draw the histogram with the specified number of bins
+    hist(x, breaks = bins, col = 'darkgray', border = 'white')
+    
+  })
+  
+})
+
+```
+
+# Live Demo examples
+
+## Temples across South East Asia
+
+A Shiny app built to share and explore data generated from a study of temple architectures across south-east Asia.
+
+https://shiny.computation.org.au/TempleArchive/
+
+## MMA group data explortion app
+
+A Shiny app developed to support the Multimodal Analysis Group at Curtin University in their study of Online Extremist Communications.
+
+https://shiny.computation.org.au/MMAv0.2/
