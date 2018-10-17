@@ -17,7 +17,7 @@ output:
 
 ## What is R?
 
-R is an open source statistical programming language.
+R is an open source statistical programming language^<small>[1](https://www.r-bloggers.com/extending-accessibility-of-open-source-statistical-software-to-the-masses-a-shiny-case-study/)</small>^.
 
 
 **Pros**
@@ -29,9 +29,11 @@ R is an open source statistical programming language.
 
 - Need to be comfortable with code
 
+
+
 ## Why use R in research?
 
-R is powerful and flexible due to the many user written packages.
+R is powerful and flexible due to the many user written packages^<small>[1](https://www.r-bloggers.com/extending-accessibility-of-open-source-statistical-software-to-the-masses-a-shiny-case-study/)</small>^.
 However, to capture this flexibility:
 
 - users need to be comfortable with programming
@@ -43,13 +45,9 @@ However, to capture this flexibility:
 
 ## What is Shiny?
 
-Shiny is an **open source R package** that provides an elegant and powerful web framework for building web applications using R. 
+Shiny^<small>[2](https://www.rstudio.com/products/shiny/)</small>^ is an **open source R package** that provides an elegant and powerful web framework for building web applications using R. 
 
 Shiny helps you turn your analyses into **interactive web applications** without requiring HTML, CSS, or JavaScript knowledge.
-
-<div class="notes">
-*https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=14&cad=rja&uact=8&ved=2ahUKEwj4m_C9y4zeAhVIpo8KHa38Bs8QFjANegQIBhAB&url=https%3A%2F%2Fwww.rstudio.com%2Fproducts%2Fshiny%2F&usg=AOvVaw18ngbWCMarhvAdIDmGGE5S*
-</div>
 
 
 ## Why use Shiny for research?
@@ -132,8 +130,19 @@ A Shiny app built to share and explore data generated from a study of temple arc
 
 https://shiny.computation.org.au/TempleArchive/
 
+![temple](temple.jpg)
+
 ## MMA group data explortion app
 
 A Shiny app developed to support the Multimodal Analysis Group at Curtin University in their study of Online Extremist Communications.
 
 https://shiny.computation.org.au/MMAv0.2/
+
+![mma](mma.png)
+
+</section>
+
+## Links
+
+1. https://www.r-bloggers.com/extending-accessibility-of-open-source-statistical-software-to-the-masses-a-shiny-case-study/
+2. https://www.rstudio.com/products/shiny/
