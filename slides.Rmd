@@ -1,7 +1,7 @@
 ---
-author: "Rebecca Lange [&lt;rebecca.lange@curtin.edu.au&gt;](mailto:rebecca.lange@curtin.edu.au)" 
-insitute: "Curtin Institute for Computation"
-date: "18 October 2018 - eResearch Astralasia"
+author: "Rebecca Lange" 
+institute: "Curtin Institute for Computation"
+date: "18 October 2018"
 output:
   revealjs::revealjs_presentation:
     theme: night
