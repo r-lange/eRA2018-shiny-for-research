@@ -15,13 +15,11 @@ output:
 <section class="titleslide level1">
 <h1>R Shiny</h1>
 <h2>Customising data exploration apps for researchers</h2>
+<p>
 &nbsp;
 &nbsp;
 &nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-
+</p>
 
  [**Rebecca Lange**](mailto:rebecca.lange@curtin.edu.au)
 
@@ -31,8 +29,6 @@ output:
 18 October 2018 - eResearch Astralasia
 </small>
 
-
-
 ![cic_logo](cic.png)
 
 </section>
@@ -41,23 +37,37 @@ output:
 ## What is R?^<small>[1](https://www.r-bloggers.com/extending-accessibility-of-open-source-statistical-software-to-the-masses-a-shiny-case-study/)</small>^
 
 R is an open source statistical programming language.
+<p>
+&nbsp;
+&nbsp;
+&nbsp;
+</p>
+- Common statistical procedures are found in R
+- Can extend functionality with packages/functions
+- Open Source, backed by a growing community
+- High-level language, code is readable
+- Scalable
+- Reproducible
 
+
+## Why use R in research?^<small>[1](https://www.r-bloggers.com/extending-accessibility-of-open-source-statistical-software-to-the-masses-a-shiny-case-study/)</small>^
+<p>
+&nbsp;
+&nbsp;
+</p>
 
 **Pros**
 
 - Common statistical procedures are found in R
 - Can extend functionality with packages/functions
+- Open Source, backed by a growing community
+- High-level language, code is readable
+- Scalable
+- Reproducible
+
+*R is powerful and flexible due to the many user written packages.*
 
 **Cons**
-
-- Need to be comfortable with code
-
-
-
-## Why use R in research?^<small>[1](https://www.r-bloggers.com/extending-accessibility-of-open-source-statistical-software-to-the-masses-a-shiny-case-study/)</small>^
-
-R is powerful and flexible due to the many user written packages.
-However, to capture this flexibility:
 
 - users need to be comfortable with programming
 - users need to find the package
@@ -171,13 +181,23 @@ A Shiny app developed to support the Multimodal Analysis Group at Curtin Univers
 
 1. https://www.r-bloggers.com/extending-accessibility-of-open-source-statistical-software-to-the-masses-a-shiny-case-study/
 2. https://www.rstudio.com/products/shiny/
+<p>
+&nbsp;
+&nbsp;
+&nbsp;
+</p>
 
-Temple exploration app
+Temple exploration app  
 https://shiny.computation.org.au/TempleArchive/
 
-Extremist Discourse Exploration app
+Extremist Discourse Exploration app  
 https://shiny.computation.org.au/MMAv0.2/
+<p>
+&nbsp;
+&nbsp;
+&nbsp;
+</p>
 
-Further reading
+Further reading  
 https://shiny.rstudio.com/articles/basics.html
 http://shiny.rstudio.com/gallery/
