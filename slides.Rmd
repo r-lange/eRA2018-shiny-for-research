@@ -22,8 +22,8 @@ output:
 &nbsp;
 &nbsp;
 
-**Rebecca Lange**
- [&lt;rebecca.lange@curtin.edu.au&gt;](mailto:rebecca.lange@curtin.edu.au)
+
+ [**Rebecca Lange**](mailto:rebecca.lange@curtin.edu.au)
 
 <span style="color:#2e96c6">**Curtin Institute for Computation**</span>
 
@@ -38,9 +38,9 @@ output:
 </section>
 # What is R?
 
-## What is R?
+## What is R?^<small>[1](https://www.r-bloggers.com/extending-accessibility-of-open-source-statistical-software-to-the-masses-a-shiny-case-study/)</small>^
 
-R is an open source statistical programming language^<small>[1](https://www.r-bloggers.com/extending-accessibility-of-open-source-statistical-software-to-the-masses-a-shiny-case-study/)</small>^.
+R is an open source statistical programming language.
 
 
 **Pros**
@@ -54,9 +54,9 @@ R is an open source statistical programming language^<small>[1](https://www.r-bl
 
 
 
-## Why use R in research?
+## Why use R in research?^<small>[1](https://www.r-bloggers.com/extending-accessibility-of-open-source-statistical-software-to-the-masses-a-shiny-case-study/)</small>^
 
-R is powerful and flexible due to the many user written packages^<small>[1](https://www.r-bloggers.com/extending-accessibility-of-open-source-statistical-software-to-the-masses-a-shiny-case-study/)</small>^.
+R is powerful and flexible due to the many user written packages.
 However, to capture this flexibility:
 
 - users need to be comfortable with programming
@@ -66,19 +66,19 @@ However, to capture this flexibility:
 
 # What is Shiny?
 
-## What is Shiny?
+## What is Shiny?^<small>[2](https://www.rstudio.com/products/shiny/)</small>^
 
 <video width="480" controls loop autoplay>
   <source src="shiny_example.mp4" type="video/mp4">
 </video>
 
 
-Shiny^<small>[2](https://www.rstudio.com/products/shiny/)</small>^ is an **open source R package** that provides an elegant and powerful web framework for building web applications using R. 
+Shiny is an **open source R package** that provides an elegant and powerful web framework for building web applications using R. 
 
 Shiny helps you turn your analyses into **interactive web applications** without requiring HTML, CSS, or JavaScript knowledge.
 
 
-## Why use Shiny for research?
+## Why use Shiny for research?^<small>[1](https://www.r-bloggers.com/extending-accessibility-of-open-source-statistical-software-to-the-masses-a-shiny-case-study/)</small>^
 
 **Pro**
 
