@@ -1,7 +1,6 @@
 ---
 author: "Rebecca Lange [&lt;rebecca.lange@curtin.edu.au&gt;](mailto:rebecca.lange@curtin.edu.au)" 
 insitute: "Curtin Institute for Computation"
-title: "R Shiny - \\n Customising data exploration apps for researchers"
 date: "18 October 2018 - eResearch Astralasia"
 output:
   revealjs::revealjs_presentation:
@@ -13,6 +12,30 @@ output:
       slideNumber: true
 ---
 
+<section class="titleslide level1">
+<h1>R Shiny</h1>
+<h2>Customising data exploration apps for researchers</h2>
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+
+**Rebecca Lange**
+ [&lt;rebecca.lange@curtin.edu.au&gt;](mailto:rebecca.lange@curtin.edu.au)
+
+<span style="color:#2e96c6">**Curtin Institute for Computation**</span>
+
+<small>
+18 October 2018 - eResearch Astralasia
+</small>
+
+
+
+![cic_logo](cic.png)
+
+</section>
 # What is R?
 
 ## What is R?
@@ -44,6 +67,11 @@ However, to capture this flexibility:
 # What is Shiny?
 
 ## What is Shiny?
+
+<video width="480" controls loop autoplay>
+  <source src="shiny_example.mp4" type="video/mp4">
+</video>
+
 
 Shiny^<small>[2](https://www.rstudio.com/products/shiny/)</small>^ is an **open source R package** that provides an elegant and powerful web framework for building web applications using R. 
 
@@ -122,23 +150,20 @@ shinyServer(function(input, output) {
 
 ```
 
+
 # Live Demo examples
 
 ## Temples across South East Asia
 
 A Shiny app built to share and explore data generated from a study of temple architectures across south-east Asia.
 
-https://shiny.computation.org.au/TempleArchive/
-
-![temple](temple.jpg)
+[![temple](temple.jpg)](https://shiny.computation.org.au/TempleArchive/)
 
 ## MMA group data explortion app
 
 A Shiny app developed to support the Multimodal Analysis Group at Curtin University in their study of Online Extremist Communications.
 
-https://shiny.computation.org.au/MMAv0.2/
-
-![mma](mma.png)
+[![mma](mma.png)](https://shiny.computation.org.au/MMAv0.2/)
 
 </section>
 
@@ -146,3 +171,13 @@ https://shiny.computation.org.au/MMAv0.2/
 
 1. https://www.r-bloggers.com/extending-accessibility-of-open-source-statistical-software-to-the-masses-a-shiny-case-study/
 2. https://www.rstudio.com/products/shiny/
+
+Temple exploration app
+https://shiny.computation.org.au/TempleArchive/
+
+Extremist Discourse Exploration app
+https://shiny.computation.org.au/MMAv0.2/
+
+Further reading
+https://shiny.rstudio.com/articles/basics.html
+http://shiny.rstudio.com/gallery/
